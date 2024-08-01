@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fe97a447-4c0f-40df-bc0d-7c3e297d31ba")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 177.292 31.75)
+		(size 66.548 45.212)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "018cc9a5-38fc-4889-ab34-bce823bffb38")
+		(property "Sheetname" "Orientation Sensor"
+			(at 177.292 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "orientation_sensor.kicad_sch"
+			(at 177.292 77.5466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 37.592 32.512)
+		(size 67.056 44.704)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "808215ad-6e01-4fac-a2e7-ca6611b41634")
+		(property "Sheetname" "Power supply"
+			(at 37.592 31.8004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 37.592 77.8006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.086 92.71)
+		(size 64.262 51.562)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96d80db8-5487-4d5d-b8d1-d07ae554e205")
+		(property "Sheetname" "LEDs"
+			(at 180.086 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 180.086 144.8566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 92.202)
+		(size 66.548 48.006)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc1f116f-e3f2-49e2-92e3-57f022f45d1a")
+		(property "Sheetname" "microcontroller"
+			(at 38.1 91.4904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 38.1 140.7926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

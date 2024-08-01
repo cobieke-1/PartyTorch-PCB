@@ -1,0 +1,1002 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8fe3a402-11ba-442a-9562-4f754bd3603f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "QLSP08RGB:QLSP08RGB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "QLSP08RGB"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -13.97 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -13.97 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -13.97 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -13.97 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QLSP08RGB_0_1"
+				(rectangle
+					(start 6.35 -10.16)
+					(end -7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "QLSP08RGB_1_1"
+				(pin passive line
+					(at 8.89 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "Blue"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "Green"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "Red"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 142.24 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20706c56-2153-4c57-8488-4fd55af41b69")
+	)
+	(junction
+		(at 142.24 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f8ba07-506e-483c-a698-28594720cc80")
+	)
+	(junction
+		(at 142.24 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36315757-9bfa-4475-9bf1-5b807cb1cf9c")
+	)
+	(junction
+		(at 142.24 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48dc25bb-3d24-4869-aada-65efc359f7fc")
+	)
+	(junction
+		(at 106.68 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ad662b1-caf6-414b-b2a3-386935062ef3")
+	)
+	(junction
+		(at 142.24 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5198a691-681d-47ec-a20a-d0bb635a8666")
+	)
+	(junction
+		(at 110.49 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "575fe550-2070-483a-b85b-da01610a6654")
+	)
+	(junction
+		(at 142.24 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61486bbb-e6a0-46db-87e1-9d70f6d50492")
+	)
+	(junction
+		(at 104.14 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cf79262-b808-4bb8-9b2c-55a7e41704e3")
+	)
+	(junction
+		(at 110.49 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa39ede3-7ae8-4f94-bdbd-44a95586bd13")
+	)
+	(junction
+		(at 106.68 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35fa1e9-a259-426c-a05e-f0f0b3165106")
+	)
+	(junction
+		(at 142.24 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb8949e4-d776-40f2-9d02-0197c88de704")
+	)
+	(junction
+		(at 104.14 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc0ad6b1-6401-4559-8734-480cf594cb66")
+	)
+	(junction
+		(at 142.24 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff217b09-3cff-49b5-84ae-c233f8b7445e")
+	)
+	(wire
+		(pts
+			(xy 142.24 49.53) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087b7b0b-876e-4f27-b75e-70b2d3ba80a5")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f281e4f-cd9c-489a-884a-f332f80e76e9")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f89ffb4-434c-4d39-963c-aaaef3f681b3")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27689de4-b235-403c-a625-8d496feaf8dc")
+	)
+	(wire
+		(pts
+			(xy 142.24 76.2) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ac6875-049e-42fa-848b-5a472c2b450c")
+	)
+	(wire
+		(pts
+			(xy 106.68 99.06) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f163b5-e49c-4c23-b653-c60a985c447f")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400e4c23-c998-4974-8a8f-b9e87da829d6")
+	)
+	(wire
+		(pts
+			(xy 106.68 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444e0aad-0506-4f51-b190-711bbd690a79")
+	)
+	(wire
+		(pts
+			(xy 92.71 49.53) (xy 110.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447fac5b-78fc-4a36-a257-d86af4710ccf")
+	)
+	(wire
+		(pts
+			(xy 142.24 57.15) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1c5ee7-b5fb-4072-97d2-2a55d1a2c081")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8b37c5-3d77-4514-838a-e34337f9ea03")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693a1629-3299-4aaf-80d6-1b249a860d09")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 104.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c0d6cc-87b4-4b3b-a9db-e61ebfaad1e6")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 123.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82aae246-d8db-4ad3-9ca0-c4aa510a4965")
+	)
+	(wire
+		(pts
+			(xy 93.98 53.34) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99790c25-0569-4aeb-862c-36115a7908f6")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999ceb95-9b99-4806-b4dc-90e659bddaf4")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a020c8ed-aad7-4c4c-9449-3e9211dfd3fd")
+	)
+	(wire
+		(pts
+			(xy 106.68 53.34) (xy 123.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38d1b7f-e370-4711-a7ff-ff3624c5510f")
+	)
+	(wire
+		(pts
+			(xy 104.14 102.87) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a46f1e-e164-4970-9427-522b2d8d6711")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 142.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc75b14a-8b1b-45a7-9dad-3a020d3b2d65")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1465b9f-8bc9-4b7e-96f7-614bb0fc0185")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5a77e2-c0d2-4da2-923a-a1f08b38408d")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd6b592-cb5a-43db-b630-fd4c6ecbc1e0")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b2966b-6aeb-4a25-8b45-af360879747e")
+	)
+	(wire
+		(pts
+			(xy 142.24 53.34) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3e9a07-5120-493d-8f6a-e2832183b528")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a2d380-b688-4564-92d8-d9d7356c36db")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ef618a-2797-4de3-bd91-07c1b2c384e5")
+	)
+	(global_label "Green"
+		(shape input)
+		(at 93.98 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "081d9ebc-8bcb-4d19-b1f5-37febcea6459")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.6124 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Red"
+		(shape input)
+		(at 92.71 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4e3dae0-9fa3-4982-858c-8a7c01aff181")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.2172 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Blue"
+		(shape input)
+		(at 92.71 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebb3023c-956f-4872-8c59-a94fa47d4534")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.552 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "QLSP08RGB:QLSP08RGB")
+		(at 133.35 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1599e588-abec-4802-9a67-41e7ba38bdf9")
+		(property "Reference" "QLSP08RGB1"
+			(at 132.715 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.715 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:QLSP08RGB"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4191bee0-da05-48de-a336-d62b059c6724")
+		)
+		(pin "6"
+			(uuid "9f2ea6aa-aebb-4c3b-ac42-4e7019297484")
+		)
+		(pin "2"
+			(uuid "6d31bf22-7959-43f5-88b6-9b1347a5809f")
+		)
+		(pin "5"
+			(uuid "153b820d-6e96-4ca3-b816-e35d727bbd8d")
+		)
+		(pin "1"
+			(uuid "dcbe0ac8-6b9b-4825-969d-5c6dc352f9af")
+		)
+		(pin "3"
+			(uuid "52e2c28e-d313-4b53-9796-523940e2be61")
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba/96d80db8-5487-4d5d-b8d1-d07ae554e205"
+					(reference "QLSP08RGB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "QLSP08RGB:QLSP08RGB")
+		(at 133.35 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d2129a-77ae-4f53-88d7-5589d1aae50a")
+		(property "Reference" "QLSP08RGB2"
+			(at 132.715 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.715 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:QLSP08RGB"
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2ef88167-1180-42d8-9b93-8652cde7c9c0")
+		)
+		(pin "6"
+			(uuid "37568a96-e766-49fe-a2e4-3ecf82082452")
+		)
+		(pin "2"
+			(uuid "6205193a-305a-413b-94b4-a79545fa6b96")
+		)
+		(pin "5"
+			(uuid "f4fce719-9a71-410e-a48f-35d35962424d")
+		)
+		(pin "1"
+			(uuid "d85671af-6f75-458e-9e88-5b29db1e1e38")
+		)
+		(pin "3"
+			(uuid "89af55e4-f744-4c0e-a5c4-33587e4b2dbb")
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba/96d80db8-5487-4d5d-b8d1-d07ae554e205"
+					(reference "QLSP08RGB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ada4400-b7f4-4dab-8080-b8aa5a147889")
+		(property "Reference" "#PWR01"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c3ee078-2b81-40e2-80d8-4bdbeb9c4047")
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba/96d80db8-5487-4d5d-b8d1-d07ae554e205"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "QLSP08RGB:QLSP08RGB")
+		(at 133.35 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ffeb665-fd29-4580-bb76-d731a8b4742e")
+		(property "Reference" "QLSP08RGB3"
+			(at 132.715 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.715 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:QLSP08RGB"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a41b3adc-1ef7-456f-9123-ca357fb521e5")
+		)
+		(pin "6"
+			(uuid "6fd6a48e-bf3b-4a1a-9010-d30fca3fdaf1")
+		)
+		(pin "2"
+			(uuid "e7f03b39-ab1c-4401-b417-3ec8565ef5ce")
+		)
+		(pin "5"
+			(uuid "7fb1e51e-6f57-4e46-b458-5fec774372d3")
+		)
+		(pin "1"
+			(uuid "3278d499-c5a9-449e-a98c-1569b237b0ef")
+		)
+		(pin "3"
+			(uuid "86b9b5b4-61ba-4c68-a489-b39132f17208")
+		)
+		(instances
+			(project "PartyTorch-PCB"
+				(path "/fe97a447-4c0f-40df-bc0d-7c3e297d31ba/96d80db8-5487-4d5d-b8d1-d07ae554e205"
+					(reference "QLSP08RGB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
